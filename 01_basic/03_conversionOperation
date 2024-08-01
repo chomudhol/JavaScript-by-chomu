@@ -1,0 +1,28 @@
+let score =   "33"        //false =0  true=1  //undefined ka type =NaN         // null ka type =0,     //"33sac"/"harish" ka type=NaN
+// console.log(typeof score)
+// console.log(typeof (score))
+
+        //convert in Number
+let valueInNumber = Number(score)
+// console.log(typeof(valueInNumber))
+// console.log(valueInNumber)
+
+
+
+
+let isLoggedIn = 1             
+            //convert in Boolean
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn)
+       //**
+//1 => true, 0 =>false
+//"" => False
+//"joy" => true
+
+
+      //conversion in String
+let somenumber = 34
+let stringnumber = String(somenumber)
+console.log(stringnumber) 
+console.log(typeof(stringnumber)) 
+

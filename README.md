@@ -1,2 +1,2 @@
-# JavaScript-by-chomu
+# JavaScript-by-vishnu
 A code for javascript learning  

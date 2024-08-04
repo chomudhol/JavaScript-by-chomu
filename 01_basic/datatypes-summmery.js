@@ -26,7 +26,32 @@
     //                console.lo("Hello Word")
     //                                     }                          
 
-console.log(typeof(heros))
-console.log(typeof(myobj))
-console.log(typeof(myFunction))
-console.log(typeof(Nulll))
+// console.log(typeof(heros))
+// console.log(typeof(myobj))
+// console.log(typeof(myFunction))
+// console.log(typeof(Nulll))
+
+
+// *******************  Memory   **********************************
+// 1. Stack mamory use in primitive datatype
+// 2. Heap mamory use in Non-primitive dataype
+
+// 1..
+let youtubename = "joysoon" 
+let anothername = youtubename
+
+anothername = "chanakiyaniti"
+console.log(anothername)
+console.log(youtubename)
+
+// 2..
+let userOne ={
+    email  : "joysoon7033@gmail.com",
+    upi : "joy@uty"
+}
+
+let userTow = userOne
+userTow.email = "ummico4340@gmail.com"
+
+console.log(userOne.email)
+console.log(userTow.email)
